@@ -1,0 +1,373 @@
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+button{
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* ==============COMPONENTS================ */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.modal-btn {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    
+    margin-top: 40px;
+    Width: 200px;
+    Height: 50px;
+    Top:430px;
+    Left: 700px;
+    border-radius: 4px;
+    
+    Offset:rgba(0, 0, 0, 0.15);
+    
+
+    color: #FFFFFF;
+    background-color: #2196F3
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+    background-color: #188ce8;
+}
+
+.services{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    
+        color: #212121;
+}
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.section-discription {
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* ===============/COMPONENTS================ */
+
+/* ===================HEADER================ */
+
+.page-header-container{
+    display: flex;
+    align-items: center;
+}
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ECECEC
+
+}
+.page-nav{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.header-mail{
+    display: flex;
+    align-items: center;
+}
+.menu-item:not(:last-child)
+{margin-right: 50px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        margin-right: 93px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+.logo-part {
+    color: black;
+}
+.current{
+    color: #2196F3;
+}
+.menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #2196F3;
+}
+.contact{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        margin-right: 50px;
+    
+        color: #757575;
+}
+.contact:hover,
+.contact:focus
+{color: #2196F3;}
+
+.header-mail{
+    margin-left: auto;
+}
+
+/*=====================/HEADER================ */
+
+/* ====================HERO==================== */
+
+.hero-main{
+    background: #2F303A;
+    height: 600px;
+        width: 1600px;
+        left: 0px;
+        top: 80px;
+        border-radius: 0px;
+}
+.hero-section{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+    padding-right: 452px;
+    justify-content: center;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title {
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #2F303A;
+}
+/* ====================/HERO=============== */
+
+/* ============ABOUT============ */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.servise-title{
+    width: 270px;
+}
+/*===========/ABOUT=========== */
+
+/* ============Images============== */
+
+.second-title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* =============/Images========== */
+
+/* =========FOTO COMAND========= */
+.command-list-foto{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        /* identical to box height */
+        margin-bottom: 10px;
+        margin-top: 30px;
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.command-list{
+    background: #F5F4FA;
+    Width: 1600px;
+    Height: 648px; 
+    Top: 1449px;
+
+}
+.about-list-foto{
+        font-size: 16px;
+        line-height: 1.19;
+
+        letter-spacing: 0.03em;
+        text-align: center;
+    
+        color: #757575;
+}
+/* ==========FOOTER================== */
+.footer{
+    background: #2F303A;
+    Width: 1600px;
+    Height: 252px;
+    
+}
+.foot-logo{
+    margin-bottom: 20px;
+}
+.foot-main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.link-footer{
+    margin-bottom: 9px;
+}
+.address-footer{
+    font-style: normal;
+    margin-top: 20px;
+    height: 81px;
+    display: flex;
+
+}
+ .logo-part-footer{
+    color: #FFFFFF;
+}
+.address-main{
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail {
+    color: #FFFFFF;
+}
+.address-main:hover,
+.address-main:focus {
+    color: #2196F3;
+}
+   
+/* ===========2PAGE=========== */
+.modal-btn-white{
+    font-family: inherit;
+        border: none;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,63;
+        /* identical to box height, or 162% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        background: #F5F4FA;
+}
+
+.modal-btn-white:hover,
+.modal-btn-white:focus{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+.list-works{
+    margin-top: 94px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+        }
+.second-section{
+    display: flex;
+    align-items: center;
+}        
+      
+/* .second-section:not(:last-child){
+     margin-right: 8px;
+} */
+.works{
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;}
+.projects{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+}
+.current {
+    color: #2196F3;
+}
+.portfolio-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    flex-basis: calc((100%-60px)/3);
+}
