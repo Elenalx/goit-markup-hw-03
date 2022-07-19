@@ -331,18 +331,14 @@ body{
 }
 .list-works{
     margin-top: 94px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-        }
+    margin-bottom: 50px;
+}
 .second-section{
     display: flex;
     align-items: center;
-}        
-      
-/* .second-section:not(:last-child){
-     margin-right: 8px;
-} */
+    justify-content: center;
+}
+       
 .works{
     line-height: 1.9;
     /* identical to box height, or 188% */
@@ -350,6 +346,7 @@ body{
     letter-spacing: 0.03em;
 
     color: #757575;}
+
 .projects{
         font-weight: 700;
         font-size: 18px;
@@ -360,14 +357,26 @@ body{
     
         color: #212121;
 }
+.btn-portfolio{
+    margin-right: 8px;
+}
 .current {
     color: #2196F3;
 }
 .portfolio-main{
+    margin-bottom: 94px;
+}
+.card{ 
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+
 }
-.card{
-    flex-basis: calc((100%-60px)/3);
+.our-works{
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px Solid #EEEEEE;
+  
 }
