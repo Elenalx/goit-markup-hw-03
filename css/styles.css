@@ -111,6 +111,7 @@ body{
 .page-nav{
     display: flex;
     align-items: center;
+    margin-right: 93px;
 }
 .menu{
     display: flex;
@@ -129,7 +130,7 @@ body{
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        /* margin-right: 93px; */
+        margin-right: 93px;
         /* identical to box height */
     
         letter-spacing: 0.03em;
@@ -179,11 +180,9 @@ body{
         max-width: 1600px;
         border-radius: 0px;
         margin: 0 auto;
-}
-.hero-section{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 200px
 }
 .hero-btn{
     display: flex;
@@ -198,6 +197,7 @@ body{
     /* or 136% */
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 30px;
    
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -272,11 +272,6 @@ body{
 .foot-logo{
     margin-bottom: 20px;
 }
-.foot-main{
-    padding-top: 60px;
-    padding-bottom: 60px;
-
-}
 .link-footer:not(:last-child){
     margin-bottom: 9px;
 }
@@ -313,7 +308,12 @@ body{
         font-weight: 500;
         font-size: 16px;
         line-height: 1,63;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
         /* identical to box height, or 162% */
+
     
         letter-spacing: 0.03em;
     
@@ -334,6 +334,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
        
 .works{
@@ -348,13 +349,14 @@ body{
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
+        margin-bottom: 4px;
         /* identical to box height, or 200% */
     
         letter-spacing: 0.06em;
     
         color: #212121;
 }
-.btn-portfolio{
+.btn-portfolio:not(:last-child){
     margin-right: 8px;
 }
 .current {
@@ -374,6 +376,11 @@ body{
     padding-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px Solid #EEEEEE;
+    padding-right: 24px;
+    border-top: none;
   
+}
+.one-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
