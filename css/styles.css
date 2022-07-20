@@ -41,13 +41,13 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    margin-bottom: 200px;
     
     margin-top: 40px;
-    Width: 200px;
-    Height: 50px;
-    Top:430px;
-    Left: 700px;
     border-radius: 4px;
+    margin: 0 auto;
+
+
     
     Offset:rgba(0, 0, 0, 0.15);
     
@@ -129,7 +129,7 @@ body{
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        margin-right: 93px;
+        /* margin-right: 93px; */
         /* identical to box height */
     
         letter-spacing: 0.03em;
@@ -159,7 +159,6 @@ body{
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        margin-right: 50px;
     
         color: #757575;
 }
@@ -177,17 +176,13 @@ body{
 
 .hero-main{
     background: #2F303A;
-    height: 600px;
-        width: 1600px;
-        left: 0px;
-        top: 80px;
+        max-width: 1600px;
         border-radius: 0px;
+        margin: 0 auto;
 }
 .hero-section{
     padding-top: 200px;
-    padding-bottom: 280px;
-    padding-left: 452px;
-    padding-right: 452px;
+    padding-bottom: 200px;
     justify-content: center;
 }
 .hero-btn{
@@ -201,9 +196,8 @@ body{
     font-size: 44px;
     line-height: 1.36;
     /* or 136% */
-    display: flex;
-    align-items: center;
     text-align: center;
+    margin: 0 auto;
    
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -239,7 +233,6 @@ body{
         line-height: 1.19;
         /* identical to box height */
         margin-bottom: 10px;
-        margin-top: 30px;
     
         text-align: center;
         letter-spacing: 0.03em;
@@ -262,11 +255,18 @@ body{
     
         color: #757575;
 }
+.team{
+    background-color: #F5F4FA;
+}
+.team-main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* ==========FOOTER================== */
 .footer{
     background: #2F303A;
-    Width: 1600px;
-    Height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 .foot-logo{
@@ -277,15 +277,12 @@ body{
     padding-bottom: 60px;
 
 }
-
-.link-footer{
+.link-footer:not(:last-child){
     margin-bottom: 9px;
 }
 .address-footer{
     font-style: normal;
     margin-top: 20px;
-    height: 81px;
-    display: flex;
 
 }
  .logo-part-footer{
