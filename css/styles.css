@@ -89,8 +89,7 @@ body{
 
     color: #757575;
 }
-.section{
-    padding-top: 94px;
+.section-image{
     padding-bottom: 94px;
 }
 
@@ -130,11 +129,8 @@ body{
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        margin-right: 93px;
-        /* identical to box height */
-    
         letter-spacing: 0.03em;
-    
+        margin-right: 93px;
         color: #2196F3;
 }
 .logo-part {
@@ -213,6 +209,10 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.about{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 .servise-title{
     width: 270px;
 }
@@ -257,6 +257,8 @@ body{
 }
 .team{
     background-color: #F5F4FA;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .team-main{
     padding-top: 30px;
@@ -270,7 +272,13 @@ body{
     
 }
 .foot-logo{
-    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        margin-bottom: 20px;
 }
 .link-footer:not(:last-child){
     margin-bottom: 9px;
@@ -326,10 +334,6 @@ body{
     color: #FFFFFF;
     background: #2196F3;
 }
-.list-works{
-    margin-top: 94px;
-    margin-bottom: 50px;
-}
 .second-section{
     display: flex;
     align-items: center;
@@ -369,7 +373,6 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
 
 }
 .our-works{
@@ -377,6 +380,7 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
+    border: 1px solid #EEEEEE;
     border-top: none;
   
 }
